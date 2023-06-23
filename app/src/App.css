@@ -1,0 +1,42 @@
+.App {
+  padding: 10px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+}
+
+.sub-todo-item {
+  display: flex;
+  align-items: center;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.input {
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.button {
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.button-danger {
+  background-color: red;
+  color: white;
+}
+
+.button-success {
+  background-color: green;
+  color: white;
+}
